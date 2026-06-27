@@ -38,25 +38,16 @@ Le siguen Hogar y Cocina con una participación del 24.2% y Deportes con 22.3%.
 
 2. ¿Qué clientes se registraron pero nunca compraron?
 
-Se encontraron tres clientes registrados que aún no han realizado ninguna compra:
-
 | Cliente          | Canal    |
 | ---------------- | -------- |
 | Mariana Silva    | Búsqueda |
 | Isabella Ramírez | Email    |
 | Tomás Herrera    | Referido |
 
-**Hallazgo:**
-Existen clientes adquiridos que todavía no han convertido. Esto representa una oportunidad de reactivación, especialmente porque estos usuarios ya mostraron interés al registrarse.
+**Análisis:**
+Hay clientes registrados que no han realizado ninguna compra provenientes de 3 canales por igual: Búsqueda, Email y Referido.
 
-**Interpretación de negocio:**
-No todos los canales están convirtiendo al 100%. Una campaña de bajo costo, como Email, podría ayudar a convertir clientes dormidos en compradores.
-
----
-
-## 3. ¿Cuáles son los productos premium del catálogo?
-
-Los productos premium son aquellos cuyo precio está por encima del precio promedio de la tienda. Entre ellos se encuentran:
+3. ¿Cuáles son los productos premium del catálogo? Aquellos cuyo precio está por encima del precio promedio de la tienda.
 
 | Producto              | Categoría      |  Precio |
 | --------------------- | -------------- | ------: |
@@ -69,17 +60,10 @@ Los productos premium son aquellos cuyo precio está por encima del precio prome
 | Cámara de Seguridad   | Electrónica    |  $89.99 |
 | Chaqueta Impermeable  | Moda           |  $89.99 |
 
-**Hallazgo:**
-Los productos premium se concentran principalmente en **Deportes, Hogar y Cocina y Electrónica**.
+**Análisis:**
+Los productos premium se concentran principalmente en **Electrónica, Deportes y Hogar y Cocina**.
 
-**Interpretación de negocio:**
-Los productos de mayor precio pueden ayudar a aumentar el ticket promedio, pero no todos deberían ser promocionados de la misma manera. La mejor oportunidad está en los productos premium que además tienen demanda comprobada.
-
----
-
-## 4. ¿Quiénes son los clientes que más gastan?
-
-Los cinco clientes con mayor gasto son:
+4. ¿Quiénes son los 5 primeros clientes que más gastan y de qué canal provienen?
 
 | Cliente         | Canal          | Gasto total |
 | --------------- | -------------- | ----------: |
@@ -89,15 +73,10 @@ Los cinco clientes con mayor gasto son:
 | Carlos Ruiz     | Redes Sociales |     $359.95 |
 | Valentina Díaz  | Búsqueda       |     $339.98 |
 
-**Hallazgo:**
-Tres de los cinco clientes que más gastan llegaron por el canal de **Búsqueda**.
+**Análisis:**
+Tres de los cinco clientes que más gastan llegaron por el canal de **Búsqueda**. 
 
-**Interpretación de negocio:**
-Búsqueda no solo atrae clientes, sino clientes con alta intención de compra y mayor gasto. Esto convierte a este canal en una opción fuerte para invertir presupuesto de marketing.
-
----
-
-## 5. Dentro de cada categoría, ¿cuáles son los productos estrella?
+5. Dentro de cada categoría, ¿cuáles son los productos estrella?
 
 El ranking de productos por ingreso muestra que cada categoría tiene una dinámica diferente.
 
