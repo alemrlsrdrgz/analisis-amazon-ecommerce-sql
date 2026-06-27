@@ -24,13 +24,13 @@ El análisis fue realizado con SQL sobre una base de datos SQLite compuesta por 
 
 1. ¿Qué categorías le dejan más dinero a Amazon?
 
-| Categoría      | Ingreso total |
-| -------------- | ------------: |
-| Electrónica    |     $1,269.83 |
-| Hogar y Cocina |       $759.94 |
-| Deportes       |       $699.94 |
-| Moda           |       $320.95 |
-| Libros         |        $88.95 |
+  | Categoría      | Ingreso total |
+  | -------------- | ------------: |
+  | Electrónica    |     $1,269.83 |
+  | Hogar y Cocina |       $759.94 |
+  | Deportes       |       $699.94 |
+  | Moda           |       $320.95 |
+  | Libros         |        $88.95 |
 
 **Análisis:**
 La categoría más fuerte del negocio es **Electrónica**, con un ingreso de $1,269.83, lo que equivale al **40.4%** de los ingresos totales.
