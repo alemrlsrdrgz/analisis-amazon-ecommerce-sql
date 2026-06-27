@@ -1,20 +1,8 @@
 -- ============================================================
 -- amazon.db · Caso de Estudio · Done With You · Portafolio SQL
 -- Base de datos de práctica para el primer proyecto de portafolio.
--- 5 tablas. SQLite (corre tal cual en DBeaver, igual que nike.db).
+-- 5 tablas. SQLite
 -- ------------------------------------------------------------
--- Misma ESTRUCTURA que nike.db, con marca Amazon E-commerce.
--- Sembrada a propósito para que TODOS los análisis del caso
--- funcionen: JOINs (puente + LEFT), subconsulta, CTE y ventana.
--- ============================================================
--- Cómo usarla en DBeaver:
---   1) Crea una conexión SQLite nueva (botón "Nueva conexión").
---   2) Apunta a un archivo nuevo: amazon.db
---   3) Abre el editor SQL y ejecuta TODO este script (Alt+X).
---   4) Refresca el árbol de la izquierda: verás las 5 tablas.
--- (El mismo SQL estándar de tus consultas también funciona en
---  BigQuery; allí solo cambia la forma de cargar los datos.)
--- ============================================================
 
 PRAGMA foreign_keys = ON;
 
