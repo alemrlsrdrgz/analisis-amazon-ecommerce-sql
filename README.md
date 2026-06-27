@@ -24,13 +24,13 @@ El análisis fue realizado con SQL sobre una base de datos SQLite compuesta por 
 
 1. ¿Qué categorías le dejan más dinero a Amazon?
 
-  | Categoría      | Ingreso total |
-  | -------------- | ------------: |
-  | Electrónica    |     $1,269.83 |
-  | Hogar y Cocina |       $759.94 |
-  | Deportes       |       $699.94 |
-  | Moda           |       $320.95 |
-  | Libros         |        $88.95 |
+| Categoría      | Ingreso total |
+| -------------- | ------------: |
+| Electrónica    |     $1,269.83 |
+| Hogar y Cocina |       $759.94 |
+| Deportes       |       $699.94 |
+| Moda           |       $320.95 |
+| Libros         |        $88.95 |
 
 **Análisis:**
 La categoría más fuerte del negocio es **Electrónica**, con un ingreso de $1,269.83, lo que equivale al **40.4%** de los ingresos totales.
@@ -89,6 +89,30 @@ En **Electrónica**, los principales productos son:
 | Auriculares Bluetooth |       $199.96 |       3 |
 | Fire TV Stick 4K      |       $199.96 |       3 |
 | Cámara de Seguridad   |       $179.98 |       5 |
+
+| Categoría | Producto | Ingreso total | Ranking |
+|---|---|---:|---:|
+| Deportes | Bicicleta Estática | $499.98 | 1 |
+| Deportes | Mancuernas Ajustables | $109.99 | 2 |
+| Deportes | Esterilla de Yoga | $89.97 | 3 |
+| Electrónica | Kindle Paperwhite | $299.98 | 1 |
+| Electrónica | Echo Dot 5 | $239.96 | 2 |
+| Electrónica | Auriculares Bluetooth | $199.96 | 3 |
+| Electrónica | Fire TV Stick 4K | $199.96 | 3 |
+| Electrónica | Cámara de Seguridad | $179.98 | 5 |
+| Electrónica | Tablet Fire HD 10 | $149.99 | 6 |
+| Hogar y Cocina | Robot Aspirador | $399.98 | 1 |
+| Hogar y Cocina | Freidora de Aire | $239.98 | 2 |
+| Hogar y Cocina | Cafetera Programable | $79.99 | 3 |
+| Hogar y Cocina | Juego de Sábanas | $39.99 | 4 |
+| Libros | Hábitos Atómicos | $56.97 | 1 |
+| Libros | Padre Rico Padre Pobre | $16.99 | 2 |
+| Libros | El Poder del Ahora | $14.99 | 3 |
+| Moda | Zapatillas Running | $129.98 | 1 |
+| Moda | Chaqueta Impermeable | $89.99 | 2 |
+| Moda | Reloj Deportivo | $54.99 | 3 |
+| Moda | Mochila Antirrobo | $45.99 | 4 |
+
 
 **Hallazgo:**
 Electrónica no depende de un solo producto. Tiene varios productos con buen desempeño, lo que permite pensar en campañas más amplias por categoría o en paquetes de productos.
