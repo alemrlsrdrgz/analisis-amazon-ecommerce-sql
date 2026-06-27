@@ -118,9 +118,9 @@ El ranking de productos por ingreso muestra que se están presentando dos dinám
 
 ---
 
-# Recomendación final: los 3 actos
+# Recomendación:
 
-## Acto 1: Análisis
+## Análisis
 
 Los datos muestran tres patrones principales:
 
@@ -132,7 +132,7 @@ Esto indica que la oportunidad más fuerte está en combinar el canal con mejor 
 
 ---
 
-## Acto 2: Criterio
+## Criterio
 
 Para decidir dónde invertir el presupuesto, se usaron tres criterios:
 
@@ -148,7 +148,7 @@ Búsqueda trae clientes con mayor intención de compra y Electrónica es la cate
 
 ---
 
-## Acto 3: Decisión
+## Decisión
 
 La recomendación es invertir principalmente en **campañas de Búsqueda enfocadas en productos de Electrónica**, especialmente en productos estrella como:
 
