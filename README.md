@@ -20,9 +20,9 @@ El análisis fue realizado con SQL sobre una base de datos SQLite compuesta por 
 
 ---
 
-# Hallazgos
+## Hallazgos
 
-## 1. ¿Qué categorías le dejan más dinero a Amazon?
+### 1. ¿Qué categorías le dejan más dinero a Amazon?
 
 | Categoría      | Ingreso total |
 | -------------- | ------------: |
