@@ -6,8 +6,6 @@
 
 Este proyecto analiza una base de datos de ecommerce usando SQL con el objetivo de identificar qué categorías, productos y canales de adquisición generan mayor valor para el negocio. A partir de los resultados, se propone una recomendación de inversión de marketing basada en datos.
 
----
-
 ## Contexto del análisis
 
 El equipo de liderazgo necesita decidir dónde invertir el presupuesto de marketing del próximo trimestre. Para responder esta pregunta, se analizaron las ventas por categoría, los clientes sin compra, los productos premium, los clientes que más gastan, los productos estrella por categoría y los canales de adquisición con mayor ingreso.
