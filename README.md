@@ -26,10 +26,6 @@ El análisis fue realizado con SQL sobre una base de datos SQLite compuesta por 
 
 ## 1. ¿Qué categorías le dejan más dinero a Amazon?
 
-La categoría con mayor ingreso es **Electrónica**, con **$1,269.83**, equivalente aproximadamente al **40.4% del ingreso total**.
-
-Le siguen:
-
 | Categoría      | Ingreso total |
 | -------------- | ------------: |
 | Electrónica    |     $1,269.83 |
@@ -38,9 +34,9 @@ Le siguen:
 | Moda           |       $320.95 |
 | Libros         |        $88.95 |
 
-**Hallazgo:**
-Electrónica es la categoría más fuerte del negocio. Esto indica que ya existe una demanda clara en esta línea de productos y que podría ser una buena candidata para recibir mayor inversión de marketing.
-
+**Análisis:**
+La categoría más fuerte del negocio es **Electrónica**, con un ingreso de $1,269.83, lo que equivale al **40.4%** de los ingresos totales.
+Le siguen Hogar y Cocina con una participación del 24.2% y Deportes con 22.3%.
 ---
 
 ## 2. ¿Qué clientes se registraron pero nunca compraron?
