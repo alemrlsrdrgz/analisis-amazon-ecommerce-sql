@@ -78,18 +78,6 @@ Tres de los cinco clientes que más gastan llegaron por el canal de **Búsqueda*
 
 5. Dentro de cada categoría, ¿cuáles son los productos estrella?
 
-El ranking de productos por ingreso muestra que cada categoría tiene una dinámica diferente.
-
-En **Electrónica**, los principales productos son:
-
-| Producto              | Ingreso total | Ranking |
-| --------------------- | ------------: | ------: |
-| Kindle Paperwhite     |       $299.98 |       1 |
-| Echo Dot 5            |       $239.96 |       2 |
-| Auriculares Bluetooth |       $199.96 |       3 |
-| Fire TV Stick 4K      |       $199.96 |       3 |
-| Cámara de Seguridad   |       $179.98 |       5 |
-
 | Categoría | Producto | Ingreso total | Ranking |
 |---|---|---:|---:|
 | Deportes | Bicicleta Estática | $499.98 | 1 |
@@ -113,20 +101,10 @@ En **Electrónica**, los principales productos son:
 | Moda | Reloj Deportivo | $54.99 | 3 |
 | Moda | Mochila Antirrobo | $45.99 | 4 |
 
+**Análisis:**
+El ranking de productos por ingreso muestra que se están presentando dos dinámicas diferentes. En la categoría de Electrónica se observa que hay varios productos con buen desempeño. Mientras que en categorías como Deportes, Moda y Hogar y Cocina, se puede diferenciar cuál es el producto estrella.
 
-**Hallazgo:**
-Electrónica no depende de un solo producto. Tiene varios productos con buen desempeño, lo que permite pensar en campañas más amplias por categoría o en paquetes de productos.
-
-También se observa un empate entre **Auriculares Bluetooth** y **Fire TV Stick 4K**, ambos con el mismo ingreso total. Al usar `RANK()`, ambos productos ocupan el puesto 3 y el siguiente producto pasa al puesto 5. Esto ocurre porque `RANK()` deja un salto después de un empate.
-
-**Interpretación de negocio:**
-En Electrónica conviene promocionar varios productos estrella al mismo tiempo. En cambio, en categorías como Deportes y Hogar y Cocina, la estrategia podría enfocarse en productos líderes específicos, como Bicicleta Estática y Robot Aspirador.
-
----
-
-## 6. ¿Por qué canal de marketing llegan los clientes que más gastan?
-
-El análisis por canal muestra que **Búsqueda** es el canal con mayor ingreso total y mayor ingreso promedio por cliente.
+6. ¿Por qué canal de marketing llegan los clientes que más gastan?
 
 | Canal          | Clientes con compra | Pedidos | Ingreso total | Ingreso por cliente |
 | -------------- | ------------------: | ------: | ------------: | ------------------: |
@@ -135,11 +113,8 @@ El análisis por canal muestra que **Búsqueda** es el canal con mayor ingreso t
 | Email          |                   2 |       3 |       $215.96 |             $107.98 |
 | Referido       |                   1 |       2 |       $194.96 |             $194.96 |
 
-**Hallazgo:**
-Búsqueda es el canal más rentable en términos de ingreso total y gasto promedio por cliente.
-
-**Interpretación de negocio:**
-Este canal parece atraer usuarios con mayor intención de compra. Por eso, debería ser la prioridad para la inversión de marketing del próximo trimestre.
+**Análisis:**
+**Búsqueda** es el canal con mayor ingreso total y mayor ingreso promedio por cliente.
 
 ---
 
