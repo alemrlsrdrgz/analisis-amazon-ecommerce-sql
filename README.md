@@ -22,7 +22,7 @@ El análisis fue realizado con SQL sobre una base de datos SQLite compuesta por 
 
 ## Hallazgos
 
-### 1. ¿Qué categorías le dejan más dinero a Amazon?
+1. ¿Qué categorías le dejan más dinero a Amazon?
 
 | Categoría      | Ingreso total |
 | -------------- | ------------: |
@@ -35,9 +35,8 @@ El análisis fue realizado con SQL sobre una base de datos SQLite compuesta por 
 **Análisis:**
 La categoría más fuerte del negocio es **Electrónica**, con un ingreso de $1,269.83, lo que equivale al **40.4%** de los ingresos totales.
 Le siguen Hogar y Cocina con una participación del 24.2% y Deportes con 22.3%.
----
 
-## 2. ¿Qué clientes se registraron pero nunca compraron?
+2. ¿Qué clientes se registraron pero nunca compraron?
 
 Se encontraron tres clientes registrados que aún no han realizado ninguna compra:
 
