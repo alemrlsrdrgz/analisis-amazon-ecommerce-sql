@@ -2,21 +2,11 @@
 
 ## Pregunta de negocio
 
-**¿En qué debería invertir Amazon su presupuesto de marketing del próximo trimestre?**
+Este proyecto responde la pregunta de negocio: **¿en qué debería invertir Amazon su presupuesto de marketing del próximo trimestre?**
 
-Este proyecto analiza una base de datos de ecommerce usando SQL con el objetivo de identificar qué categorías, productos y canales de adquisición generan mayor valor para el negocio. A partir de los resultados, se propone una recomendación de inversión de marketing basada en datos.
+Para responderla, se analizó una base de datos de ecommerce usando SQL, con el objetivo de identificar qué categorías, productos y canales de adquisición generan mayor valor para el negocio. El análisis considera las ventas por categoría, los clientes registrados que no han comprado, los productos premium, los clientes con mayor gasto, los productos estrella por categoría y los canales de marketing con mayor ingreso.
 
-## Contexto del análisis
-
-El equipo de liderazgo necesita decidir dónde invertir el presupuesto de marketing del próximo trimestre. Para responder esta pregunta, se analizaron las ventas por categoría, los clientes sin compra, los productos premium, los clientes que más gastan, los productos estrella por categoría y los canales de adquisición con mayor ingreso.
-
-El análisis fue realizado con SQL sobre una base de datos SQLite compuesta por cinco tablas:
-
-* `categorias`
-* `productos`
-* `clientes`
-* `pedidos`
-* `detalle_pedidos`
+El análisis fue realizado sobre una base de datos SQLite compuesta por cinco tablas: `categorias`, `productos`, `clientes`, `pedidos` y `detalle_pedidos`. A partir de los resultados, se propone una recomendación de inversión de marketing basada en datos.
 
 ---
 
@@ -32,9 +22,7 @@ El análisis fue realizado con SQL sobre una base de datos SQLite compuesta por 
 | Moda           |       $320.95 |
 | Libros         |        $88.95 |
 
-**Análisis:**
-La categoría más fuerte del negocio es **Electrónica**, con un ingreso de $1,269.83, lo que equivale al **40.4%** de los ingresos totales.
-Le siguen Hogar y Cocina con una participación del 24.2% y Deportes con 22.3%.
+La categoría que más ingresos genera es **Electrónica**, con $1,269.83, equivalente aproximadamente al 40.4% del ingreso total. Le siguen Hogar y Cocina, con $759.94, y Deportes, con $699.94. Esto muestra que el ingreso no está distribuido de manera uniforme entre todas las categorías, sino que una parte importante de las ventas se concentra en productos tecnológicos. En contraste, categorías como Moda y Libros tienen una participación menor dentro del total analizado.
 
 2. ¿Qué clientes se registraron pero nunca compraron?
 
@@ -44,10 +32,9 @@ Le siguen Hogar y Cocina con una participación del 24.2% y Deportes con 22.3%.
 | Isabella Ramírez | Email    |
 | Tomás Herrera    | Referido |
 
-**Análisis:**
-Hay clientes registrados que no han realizado ninguna compra provenientes de 3 canales por igual: Búsqueda, Email y Referido.
+Hay tres clientes registrados que aún no han realizado ninguna compra: Mariana Silva, Isabella Ramírez y Tomás Herrera. Estos clientes llegaron por los canales de Búsqueda, Email y Referido, lo que indica que la falta de conversión no está concentrada en una sola fuente de adquisición. Aunque estos usuarios mostraron interés inicial al registrarse, no avanzaron hasta completar una compra, por lo que representan un grupo relevante para entender posibles puntos de abandono en el proceso comercial.
 
-3. ¿Cuáles son los productos premium del catálogo? Aquellos cuyo precio está por encima del precio promedio de la tienda.
+3. ¿Cuáles son los productos premium del catálogo?
 
 | Producto              | Categoría      |  Precio |
 | --------------------- | -------------- | ------: |
@@ -60,10 +47,9 @@ Hay clientes registrados que no han realizado ninguna compra provenientes de 3 c
 | Cámara de Seguridad   | Electrónica    |  $89.99 |
 | Chaqueta Impermeable  | Moda           |  $89.99 |
 
-**Análisis:**
-Los productos premium se concentran principalmente en **Electrónica, Deportes y Hogar y Cocina**.
+Los productos premium, definidos como aquellos con precio superior al promedio de la tienda, se concentran principalmente en Deportes, Hogar y Cocina y Electrónica. Entre ellos se encuentran productos como Bicicleta Estática, Robot Aspirador, Kindle Paperwhite y Tablet Fire HD 10. Sin embargo, el hecho de que un producto tenga un precio alto no significa automáticamente que sea el más importante para el negocio. Para entender su relevancia real, también es necesario analizar si ese producto genera ingresos significativos a través de las ventas.
 
-4. ¿Quiénes son los 5 primeros clientes que más gastan y de qué canal provienen?
+4. ¿Quiénes son los 5 primeros clientes que más gastan y de qué canal provienen? 
 
 | Cliente         | Canal          | Gasto total |
 | --------------- | -------------- | ----------: |
@@ -73,8 +59,7 @@ Los productos premium se concentran principalmente en **Electrónica, Deportes y
 | Carlos Ruiz     | Redes Sociales |     $359.95 |
 | Valentina Díaz  | Búsqueda       |     $339.98 |
 
-**Análisis:**
-Tres de los cinco clientes que más gastan llegaron por el canal de **Búsqueda**. 
+Tres de los cinco primeros clientes que más gastan llegaron por el canal de Búsqueda y dos por Redes Sociales. Esto muestra que, dentro de los clientes de mayor valor, Búsqueda tiene una presencia importante. Además, Redes Sociales también aparece como un canal relevante, aunque con menor participación dentro del grupo de clientes que más gastan.
 
 5. Dentro de cada categoría, ¿cuáles son los productos estrella?
 
@@ -101,8 +86,7 @@ Tres de los cinco clientes que más gastan llegaron por el canal de **Búsqueda*
 | Moda | Reloj Deportivo | $54.99 | 3 |
 | Moda | Mochila Antirrobo | $45.99 | 4 |
 
-**Análisis:**
-El ranking de productos por ingreso muestra que se están presentando dos dinámicas diferentes. En la categoría de Electrónica se observa que hay varios productos con buen desempeño. Mientras que en categorías como Deportes, Moda y Hogar y Cocina, se puede diferenciar cuál es el producto estrella.
+Al analizar el ranking de productos por ingreso dentro de cada categoría, se observan dos comportamientos principales. En Electrónica, hay varios productos con buen desempeño, como Kindle Paperwhite, Echo Dot 5, Auriculares Bluetooth y Fire TV Stick 4K, lo que indica que esta categoría no depende de un solo producto estrella. En cambio, en otras categorías el ingreso parece estar más concentrado en uno o dos productos principales, como Bicicleta Estática en Deportes y Robot Aspirador en Hogar y Cocina. También se observa un empate en Electrónica entre Auriculares Bluetooth y Fire TV Stick 4K, ambos con $199.96 de ingreso.
 
 6. ¿Por qué canal de marketing llegan los clientes que más gastan?
 
@@ -113,8 +97,7 @@ El ranking de productos por ingreso muestra que se están presentando dos dinám
 | Email          |                   2 |       3 |       $215.96 |             $107.98 |
 | Referido       |                   1 |       2 |       $194.96 |             $194.96 |
 
-**Análisis:**
-**Búsqueda** es el canal con mayor ingreso total y mayor ingreso promedio por cliente.
+El canal con mayor ingreso total es Búsqueda, con $1,758.81. También es el canal con mayor ingreso promedio por cliente. En segundo lugar aparece Redes Sociales, con $969.88 de ingreso total. Esto indica que los clientes provenientes de Búsqueda tienen un comportamiento de compra más fuerte, tanto por el ingreso total que generan como por el gasto promedio por cliente. Por su parte, Email y Referido presentan ingresos más bajos en comparación con los demás canales.
 
 ---
 
